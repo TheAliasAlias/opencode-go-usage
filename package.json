@@ -1,0 +1,30 @@
+{
+  "name": "opencode-go-usage",
+  "version": "0.1.0",
+  "description": "OpenCode Go usage and remaining allowance in the OpenCode Desktop sidebar.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./gui-experimental": "./gui-experimental.cjs"
+  },
+  "files": [
+    "index.js",
+    "gui-experimental.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-go"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAliasAlias/opencode-go-usage.git"
+  },
+  "homepage": "https://github.com/TheAliasAlias/opencode-go-usage#readme",
+  "bugs": {
+    "url": "https://github.com/TheAliasAlias/opencode-go-usage/issues"
+  }
+}
