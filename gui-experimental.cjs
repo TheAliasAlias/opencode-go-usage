@@ -426,7 +426,7 @@ function makeWidget(ctx) {
         .map((window) => `${window.name} ${formatPercent(100 - (last.usage[window.key]?.percent ?? 0))} left`)
         .join(" · ")
     } else {
-      foot.textContent = `${mode === "used" ? "Used" : "Remaining"} allowance · click title for console`
+      foot.textContent = `${mode === "used" ? "Used" : "Remaining"} allowance`
     }
 
     foot.title = foot.textContent
