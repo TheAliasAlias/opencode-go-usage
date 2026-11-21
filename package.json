@@ -11,7 +11,8 @@
     "index.js",
     "gui-experimental.cjs",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "assets"
   ],
   "keywords": [
     "opencode",

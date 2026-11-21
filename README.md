@@ -4,6 +4,10 @@ A local OpenCode Desktop plugin that shows the OpenCode Go allowance in the
 bottom-left sidebar, under the conversations list: **5-hour**, **weekly**, and
 **monthly** quota, with reset times. A `left` / `used` button switches the view.
 
+<p align="center">
+  <img src="assets/widget.png" alt="The OpenCode Go usage widget showing 5-hour, weekly, and monthly remaining quota" width="408">
+</p>
+
 ## Install
 
 Requires OpenCode Desktop with GUI plugin support and an OpenCode Go
@@ -108,3 +112,7 @@ opencode api post /api/rpc/go-usage/get --data '{"input":{}}'
   not part of the plugin SDK. If a future release renames
   `data-slot="vertical-tabs-footer"`, the card falls back to the bottom slot.
 - There is no build step: edit either file and the running app reloads it.
+
+## License
+
+[MIT](LICENSE)
